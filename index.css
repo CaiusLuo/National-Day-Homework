@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.daohang {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.daohang .daohang_link {
+    margin-top: 50px;
+    display: flex;
+    width: 240px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 13px;
+    background-color: rgb(219, 43, 43);
+    box-shadow: 12px 12px 12px #000;
+}
+
+.daohang_link a {
+    margin: 50px auto;
+    color: #fff;
+}
+
+.daohang_link a:hover {
+    color: rgb(216, 199, 48);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.index_img {
+    text-align: center;
+    margin-top: 50px;
+    width: 1440px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.index_img img {
+    /* margin: 50px 100px; */
+    width: 1200px;
+    height: 380px;
+}
+
+.index_img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
