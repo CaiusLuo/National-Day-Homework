@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>国庆留言板</title>
+    <link rel="stylesheet" href="../css/liuyanban.css">
+    <link rel="shortcut icon" href="../images/五角星圆角.svg" type="image/x-icon">
+    <script>
+        function submitFrom() {
+            // 就简单返回提交后的效果
+            alert('提交成功！ ');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="daohang">
+        <div class="daohang_link"><a href="../index.html" target="_blank">首页</a></div>
+        <div class="daohang_link"><a href="../youlai/youlai.html" target="_blank">国庆节由来</a></div>
+        <div class="daohang_link"><a href="../lishi/lishi.html" target="_blank">国庆节历史</a></div>
+        <div class="daohang_link"><a href="../huodong/huodong.html" target="_blank">国庆节活动</a></div>
+        <div class="daohang_link"><a href="./liuyanban.html" target="_self">留言板</a></div>
+    </div>
+    <div class="text_title">
+        <span>留</span>言板
+    </div>
+    <from class="liuyan_area" id="liuyan_area">
+        <textarea name="liuyan" id="liuyan" row="10" colunm="15" placeholder="请输入你的留言~"></textarea>
+        <button type="botton" onclick="submitFrom()">提交</button>
+    </from>
+
+</body>
+
+</html>
